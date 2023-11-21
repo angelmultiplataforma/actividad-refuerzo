@@ -1,0 +1,168 @@
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --Cyanclaro: hsl(179, 60%, 55%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+}
+
+/*font-family: 'Karla', sans-serif;*/
+
+
+body{
+    background-color: var(--LightGray);
+
+    
+}
+
+.contenido{
+    font-family:'Karla', sans-serif; 
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 7 rem;
+
+    width: 18rem;
+    background-color: white;
+    border-radius: 0.3rem;
+    -webkit-box-shadow: 0px 7px 20px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 20px -7px rgba(0,0,0,0.75);
+    overflow: hidden;
+}
+
+.izquierda{
+    padding-top: 1rem ;
+    background-color: var(--Cyan);  
+    padding-left: 3.3rem;
+    height: 12rem;
+    
+
+    
+}
+
+.derecha{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+   
+    background-color: var(--Cyanclaro);
+   
+}
+
+.listado{
+line-height: 0.4rem;
+}
+
+.superior{
+    
+    height: 10rem;
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    
+}
+
+
+
+button{
+    
+    width: 11rem;
+    height: 2.2rem;
+    font-family:'Karla', sans-serif; 
+    background-color: var(--BrightYellow);
+    border-radius: 0.4rem;
+    -webkit-box-shadow: 0px 7px 20px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 20px -7px rgba(0,0,0,0.75);
+     box-shadow: 0px 7px 20px -7px rgba(0,0,0,0.75);
+    color: var(--LightGray);
+    border: none
+}
+
+h1{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 15px;
+    
+}
+p{
+    font-size: 12px;
+}
+
+
+.superior h1{
+    color: var(--Cyanclaro);
+}
+
+.superior h3{
+    color: var(--BrightYellow);
+}
+.superior p {
+    color: var(--GrayishBlue);
+}
+
+.izquierda h3{
+color: var(--LightGray);
+}
+.izquierda p{
+    color: var(--LightGray);
+}
+
+span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.derecha h3{
+    color: var(--LightGray);
+}
+
+.derecha p{ 
+    font-size: 10px;
+    color: var(--LightGray);
+
+}
+
+
+
+@media (min-width: 768px) {
+
+    .contenido{
+
+        width: 32rem;
+    }
+
+
+
+    .inferior{
+
+        display:flex;
+    }
+
+    .izquierda{
+
+
+    width: 50%;
+    }
+
+    .derecha{
+
+        width: 50% ;
+
+
+}
+
+
+
+    
+}
+
+
+
+
+
+
+
